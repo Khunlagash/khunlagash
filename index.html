@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Khunlagash</title>
+    <script>
+        function checkCode() {
+            // Prompt the user for a code input
+            var code = prompt("Qual o código?");
+
+            // Check if the code is correct
+            if (code === "??") {
+                // Redirect to the codex page
+                window.location.href = "./codex";
+            } else {
+                // Show an alert and redirect to the 404 error page
+                alert("Código incorreto!");
+                // window.location.href = "./404.html";
+                document.write("Tente de novo ou... retorne no dia 28/04/2024 às 16h00.");
+            }
+        }
+    </script>
 </head>
 <body>
-    Em construção!
-    <br>
-    <a href="./codex">Codex</a>
+    <div class="container">
+        <div class="header">
+            <h1>Khunlagash</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="javascript:checkCode()">Codex</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            Em construção!
+        </div>
+        <div class="footer">
+            <p>© 2024 Khunlagash. Todos os direitos reservados.</p>
+        </div>
+    </div>
 </body>
 </html>
