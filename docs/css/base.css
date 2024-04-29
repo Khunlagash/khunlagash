@@ -20,6 +20,11 @@ body {
     /* overflow-y: auto; */ 
 }
 
+img:hover {
+    transform: scale(1.1); /* Increase the size by 10% */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
 main {
     margin-top: 10%;
     height: 100%;
@@ -84,11 +89,6 @@ header {
     color: #fff;
     padding: 5px 10px;
     border-radius: 3px;
-}
-
-.navbar ul li a:hover {
-    background-color: var(--btn-hover);
-    text-decoration: none;
 }
 
 footer {

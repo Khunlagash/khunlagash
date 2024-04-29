@@ -7,7 +7,7 @@
 
 .button {
     padding: 10px 20px;
-    background-color: #306699;
+    background-color: var(--btn);
     color: white;
     border: none;
     border-radius: 5px;
@@ -18,5 +18,5 @@
 }
 
 .button:hover {
-    background-color: #204e82;
+    background-color: var(--btn-hover);
 }
