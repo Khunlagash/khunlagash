@@ -1,0 +1,21 @@
+:root {
+    --bg-color: #090033;
+    --color1: #FFFFFFCC;
+    --color2: #FFFFFFBF;
+    --color3: #E0D7F596;
+    --title-color: #8f243f;
+    --text-color: #ae4073;
+    --light-text: #FFFFFF;
+    --link-color: #e6ac6a;
+    --link-hover: #ffbb00;
+    --link-visited: #30461b;
+    --text-shadow: #313bbd60;
+    --font-text: 'Bookinsanity', sans-serif;
+    --font-title: 'MrsEavesSmallCaps', sans-serif;
+    --border1: #e3343d38;
+    --border2: #8f243f;
+    --bg-img: url(../imgs/fundo.jpg);
+    --selection-bg: rgba(211, 202, 161, 0.616);
+    --selection-text: #000000;
+    --btn-hover: #25141d86;
+}
