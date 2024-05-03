@@ -6,11 +6,11 @@ const app = express();
 app.use(cors());
 
 // Serve static files located in the "public" folder using Express
-app.use(express.static('docs'));
+app.use(express.static('public'));
 
 // Middleware to handle 404 errors
 app.use((req, res, next) => {
-  res.status(404).sendFile(__dirname + '/docs/404.html');
+  res.status(404).sendFile(__dirname + '/public/404.html');
 });
 
 // Initialize server
